@@ -20,7 +20,7 @@ class HomePage extends Component {
   render() {
     const { screams, loading } = this.props.data;
     let recentScreamsMarkup = !loading ? (
-      screams.map(scream => <Scream scream={scream} key={scream.screamId}/>)
+      screams.map((scream, index) => <Scream scream={scream} key={index}/>)
     ) : <p>Loading...</p>
     return (
       <Grid container spacing={16}>
