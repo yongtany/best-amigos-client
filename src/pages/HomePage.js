@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 // MUI stuff
 import Grid from '@material-ui/core/Grid'
 
-import Scream from '../components/Scream';
-import Profile from '../components/Profile';
+import Scream from '../components/scream/Scream';
+import Profile from '../components/profile/Profile';
 
 // Redux stuff
 import { connect } from 'react-redux';
