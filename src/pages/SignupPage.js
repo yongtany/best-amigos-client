@@ -65,7 +65,7 @@ class SignupPage extends Component {
     return (
       <Grid container className={classes.form}>
         <Grid item sm />
-        <Grid item sm>
+        <Grid item sm xs>
           <img src={AppIcon} alt="monkey" className={classes.image} />
           <Typography variant="h2" className={classes.pageTitle}>
             Sign up
